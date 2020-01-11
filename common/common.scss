@@ -15,13 +15,24 @@
 }
 
 @font-face {
-    font-family: 'Apercu';
-    src: url($Apercu-Medium2) format('woff2'),
-        url($Apercu-Medium) format('woff');
-    font-weight: 500;
+    font-family: 'ApercuMono';
+    src: url($Apercu-Mono-Pro) format('otf');
+    font-weight: normal;
     font-style: normal;
 }
 
+
+/*
+    "Apercu-Light-otf": "assets/apercu_light.otf",
+    "Apercu-Mono-Pro": "assets/apercu_mono_pro.otf",
+    "Apercu-Regular-Italic-Pro": "assets/apercu_regular_italic_pro.otf",
+    "Apercu-Regular-otf": "assets/apercu_regular.otf"
+*/
+
 body {
     font-family: 'Apercu', 'Arial', sans-serif;
+}
+
+code {
+    font-family: 'ApercuMono';
 }
