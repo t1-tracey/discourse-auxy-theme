@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Apercu';
-    src: url($Apercu-Light2) format('woff2'),
-        url($Apercu-Light) format('woff');
+    src: url($Apercu-Light-otf) format('otf'),
+        url($Apercu-Light2) format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Apercu';
-    src: url($Apercu-Regular2) format('woff2'),
-        url($Apercu-Regular) format('woff');
+    src: url($Apercu-Regular2) format('otf'),
+        url($Apercu-Regular2) format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Apercu';
+    font-family: 'ApercuMono';
     src: url($Apercu-Mono-Pro) format('otf');
     font-weight: normal;
     font-style: normal;
@@ -42,5 +42,5 @@ body {
 }
 
 code {
-    font-family: 'Apercu';
+    font-family: 'ApercuMono', monospace;
 }
