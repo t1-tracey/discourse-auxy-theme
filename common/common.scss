@@ -15,7 +15,15 @@
 }
 
 @font-face {
-    font-family: 'Mono';
+    font-family: 'Apercu';
+    src: url($Apercu-Medium2) format('woff2'),
+        url($Apercu-Medium) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
     src: url($Apercu-Mono-Pro) format('otf');
     font-weight: normal;
     font-style: normal;
@@ -34,5 +42,5 @@ body {
 }
 
 code {
-    font-family: 'Mono';
+    font-family: 'Apercu';
 }
