@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Apercu';
-    src: url($Apercu-Light-otf) format('otf'),
+    src: url($Apercu-Light-otf) format('opentype'),
         url($Apercu-Light2) format('woff2');
     font-weight: 300;
     font-style: normal;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'ApercuMono';
-    src: url($Apercu-Mono-Pro) format('otf');
+    src: url($Apercu-Mono-Pro) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
